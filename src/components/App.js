@@ -21,7 +21,7 @@ function App() {
 
 
   const validationLogin = yup.object().shape({
-    email: yup.string().email().required(),
+    email: yup.string().required(),
     password: yup.string().min(8).required(),
   })
 

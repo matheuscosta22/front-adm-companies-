@@ -10,12 +10,18 @@ var config = {
 }
 
 function RegisterAuthUser() {
+    var users
+
     axios.get('http://localhost:8686/api/user', config)
     .then(function (response) {
-      console.log(response['data'])
+      users = response['data']
     }).catch(function (error) {
       window.alert(error) 
     });
+
+    users.map(user =>(
+      console.log(user.name)
+    ))
 
     return (
         <h1>hello world</h1>

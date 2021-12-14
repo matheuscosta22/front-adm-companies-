@@ -4,16 +4,17 @@ import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom'
 import App from './components/App'
 import RegisterUser from './components/RegisterUser'
 import Users from './components/ListUsers'
-const loggedIn = false
+import Logout from './components/Logout'
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
+
         <Route exact path="/login" element={<App />} />
         <Route exact path="/register" element={<RegisterUser />} />
-        <Route exact path="/users" element={<Users />} />
+        <Route exact path="/logout" element={<Logout />} /> 
 
       </Routes>
     </BrowserRouter>
