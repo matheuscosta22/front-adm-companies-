@@ -1,7 +1,6 @@
 import '../styles/RegisterUser.css';
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import * as yup from "yup"
-import { Link } from 'react-router-dom'
 const axios = require('axios')
 
 function RegisterUser() {

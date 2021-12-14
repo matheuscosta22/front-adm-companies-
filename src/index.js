@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Routes, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './components/App'
 import RegisterUser from './components/RegisterUser'
-import Users from './components/ListUsers'
 import Logout from './components/Logout'
 
 

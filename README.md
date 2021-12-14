@@ -9,7 +9,9 @@ number: numero da casa, predio e etc, maior que 0 caracteres
 password: maior que 7 caracteres
 
 
-somente essas rotas estão disponíveis:
+Somente essas rotas estão disponíveis:
+e antes de testar, não esqueça de verificar se as requisições para a sua Api, estão com o link correto
+nas pastas do diretorio ./src/components/*
 
 'http://localhost:3000/login'
 
