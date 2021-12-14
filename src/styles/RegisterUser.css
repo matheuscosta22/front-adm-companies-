@@ -1,0 +1,35 @@
+.container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    height: max-content;
+    font-family: sans-serif;
+    border-radius: 7px;
+    padding: 20px 15px;
+    background-color: #DCDCDC;
+    box-shadow: 10px 11px #4F4F4F;
+  }
+  
+  .form-field{
+    width: 70%;
+    box-sizing: border-box;
+  }
+  
+  .form-error{
+    display: block;
+    color: #FF0000;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  .btn-login{
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .btn-redirect{
+    margin-top: 10px;
+    border-radius: 10px;
+  }
